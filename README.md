@@ -1,6 +1,6 @@
 # Auditing the Costs of Multi-Group Fairness Repair
 
-Code and results for the final project on intersectional equal opportunity, accuracy, and withdrawals of favorable predictions. The paper is [paper.pdf](paper.pdf).
+Code and results for the final project on intersectional equal opportunity, accuracy, and withdrawals of favorable predictions. The paper is [Auditing_the_Costs_of_Multi_Group_Fairness_Repair.pdf](Auditing_the_Costs_of_Multi_Group_Fairness_Repair.pdf).
 
 ## Reproduce
 
