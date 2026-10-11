@@ -1,0 +1,35 @@
+{
+  "radii": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "tolerances": [
+    0.0,
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "fractions": [
+    0.25,
+    0.5
+  ],
+  "replicates": 5,
+  "accuracy_budget": 0.005,
+  "utility_budgets": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "subsample_seed_base": 20261008,
+  "sampling": "Uniform without replacement; nested fractions with common permutation per fit, partition and replicate.",
+  "scope": "Fixed EG dictionaries learned on full repair data. Subsampling tests mixture estimation, not end-to-end learning data efficiency.",
+  "groups": "Evaluation eligibility fixed from original full repair split. Missing-positive groups omitted from subsample constraints only and counted.",
+  "selection": "All settings reported; original .25 radius and .02 tolerance remain the defaults. Test partitions were previously inspected."
+}
